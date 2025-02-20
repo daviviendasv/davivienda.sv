@@ -3,18 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario con Firebase</title>
+    <title>Autenticación del Cliente</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Formulario de Contacto</h1>
-    <form id="contactForm">
-        <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" required>
-        <br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <br>
-        <button type="submit">Enviar</button>
-    </form>
+    <div class="login-container">
+        <h1>Autenticación del Cliente</h1>
+        <form>
+            <label for="id-number">Ingrese número identificació</label>
+            <input type="text" id="id-number" name="id-number" required>
+            
+            <button type="submit">Ingresar</button>
+        </form>
+        <div class="links">
+            <a href="#">Registrar</a>
+            <a href="#">¿Olvidó su contraseña?</a>
+            <a href="#">Desbloquear usuario</a>
+        </div>
+        <div class="footer">
+            <p>Transfer365 CA-RD</p>
+            <p>Darivierada, tiene el compromiso de proteger su privacidad y la integridad de su información personal y financiera. <a href="#">Consultivas haciendo Click aquí</a>.</p>
+        </div>
+    </div>
 </body>
 </html>
