@@ -4,26 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autenticación del Cliente</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            margin: 0;
+        }
+        .header {
+            background-color: #d71920;
+            padding: 15px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .input-box {
+            margin-top: 20px;
+            padding: 10px;
+            width: 250px;
+            border: none;
+            border-bottom: 2px solid red;
+            font-size: 16px;
+            text-align: center;
+        }
+        .btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        .links {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .links a {
+            color: red;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer {
+            margin-top: 50px;
+            font-size: 12px;
+            color: gray;
+        }
+    </style>
 </head>
 <body>
-    <div class="login-container">
-        <h1>Autenticación del Cliente</h1>
-        <form>
-            <label for="id-number">Ingrese número identificació</label>
-            <input type="text" id="id-number" name="id-number" required>
-            
-            <button type="submit">Ingresar</button>
-        </form>
+    <div class="header">DAVIVIENDA</div>
+    <div class="container">
+        <h2>Autenticación del Cliente</h2>
+        <input type="text" class="input-box" placeholder="Ingrese número de identificación">
+        <br>
+        <button class="btn">Ingresar</button>
         <div class="links">
             <a href="#">Registrar</a>
             <a href="#">¿Olvidó su contraseña?</a>
             <a href="#">Desbloquear usuario</a>
+            <a href="#">Transfer365 CA-RD</a>
         </div>
-        <div class="footer">
-            <p>Transfer365 CA-RD</p>
-            <p>Darivierada, tiene el compromiso de proteger su privacidad y la integridad de su información personal y financiera. <a href="#">Consultivas haciendo Click aquí</a>.</p>
-        </div>
+    </div>
+    <div class="footer">
+        Davivienda tiene el compromiso de proteger su privacidad y la integridad de su información personal y financiera.
     </div>
 </body>
 </html>
